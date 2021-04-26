@@ -5,9 +5,9 @@ nav ul li{
 
 nav ul li a{
     color: black;
-    font: normal 1em varela;;
+    font: normal 0.9em varela;;
+    text-transform: uppercase;
 }
-
 
 nav ul li a:hover{
     color: hsl(0, 0%, 85%);
@@ -93,6 +93,10 @@ div.menuIconsDiv {
         color: white;
     }
 
+}
+
+#about button{
+    padding: 0 30px;
 }
 
 @media screen and (min-width: 992px){

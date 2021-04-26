@@ -467,6 +467,11 @@ section.minDelivery .overbg{
     position: relative;
 }
 
+.protfolio .element-item{
+    margin: 0;
+    padding: 0;
+}
+
 .catalogo .element-item .card{
     height: auto;
 }
@@ -477,6 +482,8 @@ section.minDelivery .overbg{
     flex-wrap: nowrap;
     position: relative;
     flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: center;
     padding: 0;
 }
 
@@ -492,14 +499,9 @@ section.minDelivery .overbg{
     position: relative;
 }
 
-
-.catalogo div.photos_column:last-child{
-    margin-right: 0;
-    display: none;
-}
-
 .catalogo div.photos_column .card{
     height: auto;
+    border-radius: 0px;
 }
 
 .title span{
@@ -610,6 +612,10 @@ section.minDelivery .overbg{
         max-width: 100%;
         max-height: 100%;
     }    
+
+    .videoIcon *{
+        font-size: 50px;
+    }
 
 }
 
