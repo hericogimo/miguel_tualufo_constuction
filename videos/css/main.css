@@ -1,0 +1,618 @@
+::-webkit-scrollbar{
+    display: none;
+}
+
+.hideMobile{
+    display: none;
+}
+
+.hideDesktop{
+    display: block;
+}
+
+.hideDesktopFlex{
+    display: flex;
+}
+
+.hide{
+    display: none;
+}
+
+.notify-container{
+    position: relative;
+}
+
+.hmg-notify-num{
+    width: auto;
+    height: auto;
+    padding: 2px 4px;
+    font: normal 0.7em varela;
+    border-radius: 1rem;
+    position: absolute;
+    z-index: 2;
+    top: -5px;
+    right: -4px;
+}
+
+i.fa-phone-alt, i.fa-phone, i.fa-whatsapp{
+    color: rgb(12, 179, 12);
+}
+
+i.fa-facebook{
+    color: lightskyblue;
+}
+
+i.fa-truck{
+    color: crimson;
+}
+
+.delicias{
+    margin: 0 0 50px 0;
+}
+
+.delicias h1{
+    font: normal 1.5em raleway-b;
+    text-align: center;
+    padding: 30px 20px;
+    color: #404043;
+}
+
+.wow{
+    margin: 20px 0;
+}
+
+.delivery .wow{
+    margin: 0;
+}
+
+.cardBackOp{
+    filter: blur(2px);
+    position: absolute;
+    width: 98%;
+    height: 98%;
+}
+
+.aboutHus .card{
+    max-height: 450px;
+    width: 500px;
+    margin: 0 5px;
+ }
+
+.aboutHus .card img{
+    width: auto;
+    max-width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+.aboutHus .card-image{
+    width: 100%;
+    justify-content: center;
+    align-items: center;    
+    height: 200px;
+    z-index: 2;
+    position: relative;
+    padding: 2px;
+}
+
+.aboutHus .cardTitle{
+    font: normal 1.3em lobster;
+    color: crimson;
+}
+
+.aboutHus .cardPrice{
+    text-align: end;
+    font: normal 1.2em varela;
+}
+
+.aboutHus .card-body{
+    position: relative;
+}
+
+.aboutHus .card-body p{
+    font: normal 1em varela;
+    text-align: justify;
+    min-height: 35%;
+}
+
+.aboutHus .cardTags{
+    width: 100%;
+    height: 30px;
+    padding: 0 2px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 5;
+}
+
+.tag{
+    margin: 0 2px;
+    padding: 0 5px;
+    border-radius: 0 0 10px 10px;
+}
+
+.aboutImage{
+    height: 200px;
+    padding-bottom: 10px;
+}
+
+.aboutImage img{
+    width: auto;
+    min-width: 100%;
+    max-width: 100%;
+    height: 100%;
+    margin:  0;
+}
+
+.delivery{
+    width: 100%;
+    margin-top: 40px;
+    background-image: url(../img/New/quintal1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: auto;
+}
+
+.overbg{
+    background-color: #404043;
+    height: 100%;
+    padding: 20px 0;
+}
+
+.overbg .whatsBt{
+    margin-top: 10px;
+}
+
+.delivery *{
+    color: white;
+}
+
+.delivery div{
+    height: 100%;
+}
+
+.subscribe {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.modal-close {
+    padding: 10px 10px 0 0;
+}
+footer{
+    height: 325px;
+    background-image: url(../img/sapp/pexels-yury-kim-585418.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+footer *{
+    color: white;
+    z-index: 2;
+}
+
+footer h6{
+    font-size: 0.8em;
+}
+
+.imageOpacity{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(49, 49, 49, 0.616);
+    z-index: 1;
+}
+
+footer ul{
+    flex-wrap: wrap;
+}
+
+.footerMenu li{
+    list-style: none;
+}
+
+.logoItem{
+    padding-top: 20px;
+}
+
+.footerIcons{
+    flex-wrap: nowrap;
+    padding: 10px;
+}
+
+.footerIcons a, .whatsBt{
+    color: white;
+    width: 40px; 
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin: 0 5px;
+    border-radius: 2rem;
+}
+
+.deliveryRow{
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.deliveryText{
+    max-width: 300px;
+}
+
+.paddDiv{
+    padding: 40px 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutHus{
+    background-color: rgb(234, 235, 238);
+    margin-top: 100px;
+}
+
+.aboutHus .card{
+    margin: 20px;
+}
+
+
+.aboutHus .card svg{
+    fill: rgb(70, 70, 70);
+    color: rgb(70, 70, 70);
+}
+
+.aboutHus .card svg:hover{
+    fill: rgb(17, 17, 17);
+    color: rgb(22, 22, 22);
+}
+
+
+.aboutHus .card h1{
+    padding: 10px 0 5px 0;
+    font: normal 1.4em raleway-b;
+    color: rgb(78, 78, 78);
+}
+
+.aboutHus .card p, div.aboutHus div.card p.card-text{
+    font: normal 1em raleway;
+    letter-spacing: 0.5px;
+}
+
+.protfolio{
+    padding: 40px 0 55px 0;
+    margin: 50px 0;
+    position: relative;
+}
+.protfolio ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px 10px 20px 0px;
+}
+.protfolio ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #333;
+    transition: 0.5s;
+    margin-right: 10px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.protfolio ul li span{
+    color:#2196f3;
+    font-size: 20px;
+    font-weight: bold;
+}
+.protfolio ul li a:hover{
+    color:#2196f3;
+    border-bottom: 1px solid #2196f3;
+}
+.protfolio ul .active > a{
+    color:#2196f3;
+    border-bottom: 1px solid #2196f3;
+}
+
+.protfolio .projects .card {
+    height: 220px;
+    overflow: hidden;
+}
+.protfolio .projects .card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.protfolio .projects .card .overlay{
+    position: absolute;
+    top: 100%;
+    bottom:0;
+    left: 0;
+    right: 0;
+    height: 10%;
+    transition: .2s ease;
+    background-color:rgba(0,0,0,0.8);
+    cursor: pointer;
+    overflow: hidden;
+}
+.protfolio .projects .card:hover  .overlay{
+    opacity: 1;
+    height: 50%;
+    top:80%;
+    animation: shake 0.5s;
+}
+@keyframes shake{
+    0%{
+         top:80%;
+    }
+    25%{
+         top:85%;
+    }
+    50%{
+         top:80%;
+    }
+    75%{
+         top:85%;
+    }
+    100%{
+         top:80%; 
+    }
+}
+.protfolio .projects .card .overlay .title{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transition: 1s;
+    width: 100%;
+    color:#fff;
+    text-align: left;
+    padding-left: 20px;
+}
+/************ start portfolio *********/
+/************ start sevices *********/
+.services{
+    padding:60px 0 60px 0px;
+    background-color:#1c222e;
+    color:#FFF;
+}
+.services .content{
+    position: relative;
+    padding: 20px;
+    border: 1px solid #2196f3;
+    transition: 0.5s;
+    margin-top: 30px;
+    color:#fff;
+}
+.services .content:hover {  
+    border-color:#FFF;
+    background-color: #FFF;
+    color:#333;
+}
+.services .content h3{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.services .content p{
+    font-size: 16px;
+    margin-top: 25px;
+    line-height: 30px;
+}
+.services .content i{
+    border: 1px solid #2196f3;
+    width: 120px;
+    height: 120px;
+    font-size: 70px;
+    line-height: 120px;
+    border-radius: 50%;
+    margin: 15px 0 25px 0;
+     background: linear-gradient(45deg,#4b00ff,#2196f3);
+}
+
+section.minDelivery{
+    height: 300px;
+    background-image: url(../img/New/quintal1.jpg);
+}
+
+
+section.minDelivery .overbg{
+    background-color: #404043b7;
+}
+
+.catalogoDiv{
+    width: 100%;
+    padding: 10px;
+}
+
+.catalogoDiv button{
+    padding: 2px 20px;
+    font: normal 1em raleway-sb;
+    border-radius: 0 5px 5px 0;
+    border-left: none;
+}
+
+.catalogoDiv button:first-child{
+    border-radius: 5px 0 0 5px;
+    border-left: 1px solid black;
+    border-right: none;
+}
+
+.catalogoDiv button svg{
+    margin: 0 10px;
+}
+
+.catalogoDiv button.active{
+    border: 2px solid steelblue;
+}
+
+.catalogoDiv button.active *{
+    color: purple;
+    fill: purple;
+}
+
+.catalogo{
+    margin: 0;
+    padding-top: 0;
+}
+
+.catalogo .element-item{
+    height: auto;
+    margin: 5px;
+    display: block;
+    height: auto;
+    position: relative;
+}
+
+.catalogo .element-item .card{
+    height: auto;
+}
+
+.catalogo .photos{
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    position: relative;
+    flex-wrap: nowrap;
+    padding: 0;
+}
+
+.catalogo div.photos_column{
+    display: block;
+    flex-basis: 0;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    flex-shrink: 1;
+    width: auto;
+    width: 100%;
+    max-width: 47%;
+    position: relative;
+}
+
+
+.catalogo div.photos_column:last-child{
+    margin-right: 0;
+    display: none;
+}
+
+.catalogo div.photos_column .card{
+    height: auto;
+}
+
+.title span{
+    padding-right: 10px;
+}
+
+.imageView .modal-content{
+    padding: 0;
+    height: 100%;
+    max-height: 700px;
+    background: transparent;
+    border: none;
+}
+
+.imageView .modal-body{
+    padding: 0;
+    height: 500px;
+}
+
+.imageView .modal-header, .imageView .modal-footer{
+    border: none;
+}
+
+.imageView .modal-dialog{
+    max-width: 700px;
+}
+
+.imageView .image{
+    width: 100%;
+    height: 100%;
+}
+
+.imageView .image img, .imageView .image video{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.videoIcon{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.473);
+}
+
+.videoIcon *{
+    color: white;
+    fill: white;
+}
+
+
+@media screen and (min-width: 992px){
+    .hideMobileFlex{
+        display: flex;
+    }
+    
+    .hideMobile{
+        display: block;
+    }
+
+    .hideDesktop{
+        display: none;
+    }
+
+    .aboutImage{
+        height: 300px;
+    }
+
+    footer{
+        height: 250px;
+    }
+
+    .deliveryRow{
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .delivery{
+        height: 500px;
+    }
+
+    .paddDiv{
+        padding: 40px 80px;
+        justify-content: space-between; 
+    }  
+    
+    .aboutImage img{
+        min-width: auto;
+    }
+    
+    .catalogo div.photos_column{
+        max-width: 30%;
+    }
+
+    .catalogo div.photos_column:last-child{
+        margin-right: 0;
+        display: block;
+    }
+
+    .catalogo .photos{
+        padding: 0 15px;
+    }
+
+    .imageView .image img{
+        width: auto;
+        height: 100%;
+        max-width: 100%;
+        max-height: 100%;
+    }    
+
+}
+
+div.hide{
+    display: none;
+}

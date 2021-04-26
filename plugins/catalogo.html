@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo | Miguel Tualufo Construction</title>
+    <link rel="icon" href="img/favicon.jpg">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="plugins/fontawesome/css/all.css">
+    <link rel="stylesheet" href="plugins/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="plugins/owlcarousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/buttons.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/backgrounds.css">
+    <link rel="stylesheet" href="css/shadowns.css">
+    <link rel="stylesheet" href="css/slider/slide.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/slider/sliderPa.css">
+    <link rel="stylesheet" href="css/borders.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="d-flex modal-close justify-content-end">
+                    <button type="button" class="hmgBtnRR hmgBtn hmgBtnMin hover-o hmg-back-r" data-bs-dismiss="modal" aria-label="Close">&Cross;</button>
+                </div>
+                <div class="modal-body">
+                    <form class="loginForm">
+                        <div class="container">    
+                            <div class="d-flex loginLogo justify-content-center">
+                                <a href="#" class="navbar-brand d-flex align-items-center justify-content-start">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-building" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M14.763.075A.5.5 0 0 1 15 .5v15a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14h-1v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V10a.5.5 0 0 1 .342-.474L6 7.64V4.5a.5.5 0 0 1 .276-.447l8-4a.5.5 0 0 1 .487.022zM6 8.694 1 10.36V15h5V8.694zM7 15h2v-1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5V15h2V1.309l-7 3.5V15z"/>
+                                        <path d="M2 11h1v1H2v-1zm2 0h1v1H4v-1zm-2 2h1v1H2v-1zm2 0h1v1H4v-1zm4-4h1v1H8V9zm2 0h1v1h-1V9zm-2 2h1v1H8v-1zm2 0h1v1h-1v-1zm2-2h1v1h-1V9zm0 2h1v1h-1v-1zM8 7h1v1H8V7zm2 0h1v1h-1V7zm2 0h1v1h-1V7zM8 5h1v1H8V5zm2 0h1v1h-1V5zm2 0h1v1h-1V5zm0-2h1v1h-1V3z"/>
+                                    </svg>
+                                    <h2>Miguel <br> Tualufo</h2>
+                                </a>
+                            </div>
+                            <h5 class="modal-title d-flex justify-content-center" id="staticBackdropLabel">Entre em contacto</h5>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nome*">
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email*">
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Celular*">
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Digite sua mensagem..." rows="3"></textarea>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-body fotmLoginBts d-flex justify-content-end">
+                    <button type="button" class="hmgBtn hmg-back-p">Enviar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade imageView" id="imageView" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="image d-flex justify-content-center align-items-center">
+                        <img src="img/sapp/completed1.jpg" id="imagePopUp" alt="image">
+                    </div>
+                </div>
+                <div class="modal-footer d-flex justify-content-center">
+                    <button type="button" class="btn hmgBtnRR hmg-back-b btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade imageView" id="videoView" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="image videoSRC d-flex justify-content-center align-items-center">
+
+                    </div>
+                </div>
+                <div class="modal-footer d-flex justify-content-center">
+                    <button type="button" class="btn hmgBtnRR hmg-back-b hideVid btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar wh navbar-expand-lg sticky-top">
+        <div class="container" style="flex-wrap: nowrap;">
+
+            <button class="hideDesktopFlexn hmgBtn noback navMenuBt hideDesktop">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="20" height="20"><path fill-rule="evenodd" d="M1 2.75A.75.75 0 011.75 2h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 2.75zm0 5A.75.75 0 011.75 7h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 7.75zM1.75 12a.75.75 0 100 1.5h12.5a.75.75 0 100-1.5H1.75z"></path></svg>
+            </button>
+
+            <a href="index.html" class="navbar-brand d-flex align-items-center justify-content-start">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-building" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M14.763.075A.5.5 0 0 1 15 .5v15a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14h-1v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V10a.5.5 0 0 1 .342-.474L6 7.64V4.5a.5.5 0 0 1 .276-.447l8-4a.5.5 0 0 1 .487.022zM6 8.694 1 10.36V15h5V8.694zM7 15h2v-1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5V15h2V1.309l-7 3.5V15z"/>
+                    <path d="M2 11h1v1H2v-1zm2 0h1v1H4v-1zm-2 2h1v1H2v-1zm2 0h1v1H4v-1zm4-4h1v1H8V9zm2 0h1v1h-1V9zm-2 2h1v1H8v-1zm2 0h1v1h-1v-1zm2-2h1v1h-1V9zm0 2h1v1h-1v-1zM8 7h1v1H8V7zm2 0h1v1h-1V7zm2 0h1v1h-1V7zM8 5h1v1H8V5zm2 0h1v1h-1V5zm2 0h1v1h-1V5zm0-2h1v1h-1V3z"/>
+                  </svg>
+                <h2>Miguel <br> Tualufo</h2>
+            </a>
+
+            <div class="navbar-collapse hideMobile" id="main-nav">
+                <ul class="navbar-nav mr-auto w-100 justify-content-center">
+                    <li class="menu shadown justify-content-between hideDesktop">
+                        <a class="nav-link ">Menu</a>
+                        <button type="button" class="hmgBtn hmgBtnRR navMenuBt hmg-back-w">&Cross;</button>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#about">QUEM SOMOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#projects">RESIDENCIAL</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#comercial">COMERCIAL</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">REFORMAS</a>
+                    </li>
+                    <li class="nav-item hideDesktop">
+                        <a class="nav-link" href="catalogo.html">CATÁLOGO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#contact">CONTACTO</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="navBts justify-content-between">
+                <button class="hideDesktopFlexn hmgBtnR hmg-back-p hover-p border-1-s-w" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    Agendar
+                </button>
+            </div>
+
+        </div>
+    </nav>
+
+    <section class="catalogo protfolio delicias" id="portfolio">
+        <h1>Catálogo de construções | Miguel Tualufo Constructions</h1>
+        <div class="catalogoDiv d-flex justify-content-center">
+            <div class="btn-group" role="group" aria-label="Basic example">
+                <button type="button" class="hmgBtn photosBt hmg-back-w border-1-s-b active hover-p2 d-flex align-items-center justify-content-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-images" viewBox="0 0 16 16">
+                        <path d="M4.502 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
+                        <path d="M14.002 13a2 2 0 0 1-2 2h-10a2 2 0 0 1-2-2V5A2 2 0 0 1 2 3a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v8a2 2 0 0 1-1.998 2zM14 2H4a1 1 0 0 0-1 1h9.002a2 2 0 0 1 2 2v7A1 1 0 0 0 15 11V3a1 1 0 0 0-1-1zM2.002 4a1 1 0 0 0-1 1v8l2.646-2.354a.5.5 0 0 1 .63-.062l2.66 1.773 3.71-3.71a.5.5 0 0 1 .577-.094l1.777 1.947V5a1 1 0 0 0-1-1h-10z"/>
+                    </svg>
+                    Fotos
+                </button>
+                <button type="button" class="hmgBtn vieosBt hmg-back-w border-1-s-b hover-p2 d-flex align-items-center justify-content-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-camera-reels" viewBox="0 0 16 16">
+                        <path d="M6 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM1 3a2 2 0 1 0 4 0 2 2 0 0 0-4 0z"/>
+                        <path d="M9 6h.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 7.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 16H2a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h7zm6 8.73V7.27l-3.5 1.555v4.35l3.5 1.556zM1 8v6a1 1 0 0 0 1 1h7.5a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1z"/>
+                        <path d="M9 6a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM7 3a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+                      </svg>
+                    Vídeos
+                </button>
+            </div>
+        </div>
+
+        <h1 class="catalogoActive">Fotos</h1>
+
+        <div class="photos photosD projects d-flex align-items-center justify-content-center">
+            <div class="photos_column">
+                <div class="element-item develop">
+                    <div class="card cardImage" data-file-image="img/sapp/completed1.jpg" data-bs-toggle="modal" data-bs-target="#imageView">
+                        <img src="img/sapp/completed1.jpg">
+                        <div class="overlay">
+                            <div class="title d-flex justify-content-between">
+                            <p>Casa 1º andar</p>
+                            <span class="hideMobile">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-geo-alt" width="16" height="16" viewBox="0 0 16 16" id="geo-alt">
+                                        <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 018 14.58a31.481 31.481 0 01-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0110 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 002 6c0 4.314 6 10 6 10z"></path>
+                                        <path d="M8 8a2 2 0 110-4 2 2 0 010 4zm0 1a3 3 0 100-6 3 3 0 000 6z"></path>
+                                    </svg>
+                                    Intaka / Maputo
+                            </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="element-item graph">
+                    <div class="card cardImage" data-file-image="img/sapp/obra2.jpg" data-bs-toggle="modal" data-bs-target="#imageView">
+                        <img src="img/sapp/obra2.jpg">
+                        <div class="overlay">
+                            <div class="title d-flex justify-content-between">
+                            <p>Casa2 1º andar</p>
+                            <span class="hideMobile">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-geo-alt" width="16" height="16" viewBox="0 0 16 16" id="geo-alt">
+                                        <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 018 14.58a31.481 31.481 0 01-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0110 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 002 6c0 4.314 6 10 6 10z"></path>
+                                        <path d="M8 8a2 2 0 110-4 2 2 0 010 4zm0 1a3 3 0 100-6 3 3 0 000 6z"></path>
+                                    </svg>
+                                    Intaka / Maputo
+                            </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="element-item design">
+                    <div class="card cardImage" data-file-image="img/New/quintal7.jpg" data-bs-toggle="modal" data-bs-target="#imageView">
+                        <img src="img/New/quintal7.jpg">
+                        <div class="overlay">
+                            <div class="title d-flex justify-content-between">
+                            <p>Casa3 1º andar</p>
+                            <span class="hideMobile">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-geo-alt" width="16" height="16" viewBox="0 0 16 16" id="geo-alt">
+                                        <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 018 14.58a31.481 31.481 0 01-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0110 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 002 6c0 4.314 6 10 6 10z"></path>
+                                        <path d="M8 8a2 2 0 110-4 2 2 0 010 4zm0 1a3 3 0 100-6 3 3 0 000 6z"></path>
+                                    </svg>
+                                    Liberdade / Matola
+                            </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="photos_column">
+                <div class="element-item develop">
+                    <div class="card cardImage" data-file-image="img/sapp/dest2.jpg" data-bs-toggle="modal" data-bs-target="#imageView">
+                        <img src="img/sapp/dest2.jpg">
+                        <div class="overlay">
+                            <div class="title d-flex justify-content-between">
+                            <p>Lorem ipsum dolor sit</p>
+                            <span class="hideMobile">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-geo-alt" width="16" height="16" viewBox="0 0 16 16" id="geo-alt">
+                                        <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 018 14.58a31.481 31.481 0 01-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0110 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 002 6c0 4.314 6 10 6 10z"></path>
+                                        <path d="M8 8a2 2 0 110-4 2 2 0 010 4zm0 1a3 3 0 100-6 3 3 0 000 6z"></path>
+                                    </svg>
+                                    Matola-Gare / Matola
+                            </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="element-item graph">
+                    <div class="card cardImage" data-file-image="img/sapp/obra1.jpg" data-bs-toggle="modal" data-bs-target="#imageView">
+                        <img src="img/sapp/obra1.jpg">
+                        <div class="overlay">
+                            <div class="title d-flex justify-content-between">
+                            <p>Lorem ipsum dolor sit</p>
+                            <span class="hideMobile">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-geo-alt" width="16" height="16" viewBox="0 0 16 16" id="geo-alt">
+                                        <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 018 14.58a31.481 31.481 0 01-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0110 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 002 6c0 4.314 6 10 6 10z"></path>
+                                        <path d="M8 8a2 2 0 110-4 2 2 0 010 4zm0 1a3 3 0 100-6 3 3 0 000 6z"></path>
+                                    </svg>
+                                    Matola / Matola
+                            </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="element-item design">
+                    <div class="card cardImage" data-file-image="img/New/dentro4.jpg" data-bs-toggle="modal" data-bs-target="#imageView">
+                        <img src="img/New/dentro4.jpg">
+                        <div class="overlay">
+                            <div class="title d-flex justify-content-between">
+                            <p>Lorem ipsum dolor sit</p>
+                            <span class="hideMobile">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-geo-alt" width="16" height="16" viewBox="0 0 16 16" id="geo-alt">
+                                        <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 018 14.58a31.481 31.481 0 01-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0110 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 002 6c0 4.314 6 10 6 10z"></path>
+                                        <path d="M8 8a2 2 0 110-4 2 2 0 010 4zm0 1a3 3 0 100-6 3 3 0 000 6z"></path>
+                                    </svg>
+                                    Matola / Matola
+                            </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="photos_column">
+                <div class="element-item develop" data-bs-toggle="modal" data-bs-target="#imageView">
+                    <div class="card cardImage" data-file-image="img/sapp/image1.jpg">
+                        <img src="img/sapp/image1.jpg">
+                        <div class="overlay">
+                            <div class="title d-flex justify-content-between">
+                            <p>Lorem ipsum dolor sit</p>
+                            <span class="hideMobile">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-geo-alt" width="16" height="16" viewBox="0 0 16 16" id="geo-alt">
+                                    <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 018 14.58a31.481 31.481 0 01-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0110 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 002 6c0 4.314 6 10 6 10z"></path>
+                                    <path d="M8 8a2 2 0 110-4 2 2 0 010 4zm0 1a3 3 0 100-6 3 3 0 000 6z"></path>
+                                </svg>
+                                Malhampsene / Matola
+                            </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="element-item graph" data-bs-toggle="modal" data-bs-target="#imageView">
+                    <div class="card cardImage" data-file-image="img/sapp/obra4.jpg">
+                        <img src="img/sapp/obra4.jpg">
+                        <div class="overlay">
+                            <div class="title d-flex justify-content-between">
+                            <p>Lorem ipsum dolor</p>
+                            <span class="hideMobile">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-geo-alt" width="16" height="16" viewBox="0 0 16 16" id="geo-alt">
+                                    <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 018 14.58a31.481 31.481 0 01-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0110 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 002 6c0 4.314 6 10 6 10z"></path>
+                                    <path d="M8 8a2 2 0 110-4 2 2 0 010 4zm0 1a3 3 0 100-6 3 3 0 000 6z"></path>
+                                </svg>
+                                Circular / Maputo
+                            </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="element-item graph" data-bs-toggle="modal" data-bs-target="#imageView">
+                    <div class="card cardImage" data-file-image="img/sapp/obra3.jpg">
+                        <img src="img/sapp/obra3.jpg">
+                        <div class="overlay">
+                            <div class="title d-flex justify-content-between">
+                            <p>Lorem ipsum dolor</p>
+                            <span class="hideMobile">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-geo-alt" width="16" height="16" viewBox="0 0 16 16" id="geo-alt">
+                                    <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 018 14.58a31.481 31.481 0 01-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0110 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 002 6c0 4.314 6 10 6 10z"></path>
+                                    <path d="M8 8a2 2 0 110-4 2 2 0 010 4zm0 1a3 3 0 100-6 3 3 0 000 6z"></path>
+                                </svg>
+                                Circular / Maputo
+                            </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+   <footer class="hmg-back-b w-100 d-flex flex-column align-items-center text-center">
+        <div class="imageOpacity">
+            <div class="logoItem d-flex justify-content-center align-items-center">
+                <a href="index.html" class="navbar-brand d-flex align-items-center justify-content-start">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-building" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M14.763.075A.5.5 0 0 1 15 .5v15a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14h-1v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V10a.5.5 0 0 1 .342-.474L6 7.64V4.5a.5.5 0 0 1 .276-.447l8-4a.5.5 0 0 1 .487.022zM6 8.694 1 10.36V15h5V8.694zM7 15h2v-1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5V15h2V1.309l-7 3.5V15z"/>
+                        <path d="M2 11h1v1H2v-1zm2 0h1v1H4v-1zm-2 2h1v1H2v-1zm2 0h1v1H4v-1zm4-4h1v1H8V9zm2 0h1v1h-1V9zm-2 2h1v1H8v-1zm2 0h1v1h-1v-1zm2-2h1v1h-1V9zm0 2h1v1h-1v-1zM8 7h1v1H8V7zm2 0h1v1h-1V7zm2 0h1v1h-1V7zM8 5h1v1H8V5zm2 0h1v1h-1V5zm2 0h1v1h-1V5zm0-2h1v1h-1V3z"/>
+                      </svg>
+                    <h2>Miguel <br> Tualufo</h2>
+                </a>
+            </div>
+            <div class="footerMenu">
+                <ul class="mr-auto w-100 d-flex justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#about">QUEM SOMOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#projects">RESIDENCIAL</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#comercial">COMERCIAL</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">REFORMAS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">CATÁLOGO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#contact">CONTACTO</a>
+                    </li>
+                </ul>
+            </div>
+            <h6><em>Todos os direitos reservados</h6>
+            <h6>2021 &copy; TechTune</em></h6>
+            <div class="d-flex justify-content-center align-items-center footerIcons">
+                <a href="https://github.com/hericoGimo" class="border-1-d-w hmg-hover-w">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="20" height="20"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=+258842477108&text=Hi" class="border-1-d-w hmg-hover-w">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <a href="https://web.facebook.com/ericomateusgimo" class="border-1-d-w hmg-hover-w">
+                    <i class="fab fa-facebook"></i>
+                </a>
+            </div>
+        </div>
+   </footer>
+
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="plugins/owlcarousel/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        $(document).ready(function(){
+
+
+            var videos = `
+            <div class="photos videosD projects d-flex align-items-center justify-content-center">
+            <div class="photos_column">
+                <div class="element-item develop">
+                    <div class="card videoCard" data-file-image="videos/constucao1.mp4" data-bs-toggle="modal" data-bs-target="#videoView">
+                        <img src="img/sapp/image3.jpg">
+                        <div class="videoIcon d-flex align-items-center justify-content-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="84" height="84" class="bi bi-play-circle" viewBox="0 0 16 16" id="play-circle"><path d="M8 15A7 7 0 118 1a7 7 0 010 14zm0 1A8 8 0 108 0a8 8 0 000 16z"></path><path d="M6.271 5.055a.5.5 0 01.52.038l3.5 2.5a.5.5 0 010 .814l-3.5 2.5A.5.5 0 016 10.5v-5a.5.5 0 01.271-.445z"></path></svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="element-item develop">
+                    <div class="card videoCard" data-file-image="videos/dentro1.mp4" data-bs-toggle="modal" data-bs-target="#videoView">
+                        <img src="img/New/dentro5.jpg">
+                        <div class="videoIcon d-flex align-items-center justify-content-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="84" height="84" class="bi bi-play-circle" viewBox="0 0 16 16" id="play-circle"><path d="M8 15A7 7 0 118 1a7 7 0 010 14zm0 1A8 8 0 108 0a8 8 0 000 16z"></path><path d="M6.271 5.055a.5.5 0 01.52.038l3.5 2.5a.5.5 0 010 .814l-3.5 2.5A.5.5 0 016 10.5v-5a.5.5 0 01.271-.445z"></path></svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="element-item develop">
+                    <div class="card videoCard" data-file-image="videos/quintal1.mp4" data-bs-toggle="modal" data-bs-target="#videoView">
+                        <img src="img/New/piscina1.jpg">
+                        
+                        <div class="videoIcon d-flex align-items-center justify-content-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="84" height="84" class="bi bi-play-circle" viewBox="0 0 16 16" id="play-circle"><path d="M8 15A7 7 0 118 1a7 7 0 010 14zm0 1A8 8 0 108 0a8 8 0 000 16z"></path><path d="M6.271 5.055a.5.5 0 01.52.038l3.5 2.5a.5.5 0 010 .814l-3.5 2.5A.5.5 0 016 10.5v-5a.5.5 0 01.271-.445z"></path></svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="photos_column">
+                <div class="element-item develop">
+                    <div class="card videoCard" data-file-image="videos/portao2.mp4" data-bs-toggle="modal" data-bs-target="#videoView">
+                        <img src="img/sapp/obra2.jpg">
+                        <div class="videoIcon d-flex align-items-center justify-content-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="84" height="84" class="bi bi-play-circle" viewBox="0 0 16 16" id="play-circle"><path d="M8 15A7 7 0 118 1a7 7 0 010 14zm0 1A8 8 0 108 0a8 8 0 000 16z"></path><path d="M6.271 5.055a.5.5 0 01.52.038l3.5 2.5a.5.5 0 010 .814l-3.5 2.5A.5.5 0 016 10.5v-5a.5.5 0 01.271-.445z"></path></svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="element-item develop">
+                    <div class="card videoCard" data-file-image="videos/maquina2.mp4" data-bs-toggle="modal" data-bs-target="#videoView">
+                        <img src="img/sapp/image1.jpg">
+                        <div class="videoIcon d-flex align-items-center justify-content-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="84" height="84" class="bi bi-play-circle" viewBox="0 0 16 16" id="play-circle"><path d="M8 15A7 7 0 118 1a7 7 0 010 14zm0 1A8 8 0 108 0a8 8 0 000 16z"></path><path d="M6.271 5.055a.5.5 0 01.52.038l3.5 2.5a.5.5 0 010 .814l-3.5 2.5A.5.5 0 016 10.5v-5a.5.5 0 01.271-.445z"></path></svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="element-item develop">
+                    <div class="card videoCard" data-file-image="videos/piscina1.mp4" data-bs-toggle="modal" data-bs-target="#videoView">
+                        <img src="img/New/piscina5.jpg">
+                        
+                        <div class="videoIcon d-flex align-items-center justify-content-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="84" height="84" class="bi bi-play-circle" viewBox="0 0 16 16" id="play-circle"><path d="M8 15A7 7 0 118 1a7 7 0 010 14zm0 1A8 8 0 108 0a8 8 0 000 16z"></path><path d="M6.271 5.055a.5.5 0 01.52.038l3.5 2.5a.5.5 0 010 .814l-3.5 2.5A.5.5 0 016 10.5v-5a.5.5 0 01.271-.445z"></path></svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="photos_column">
+                <div class="element-item develop">
+                    <div class="card videoCard" data-file-image="videos/piscina2.mp4" data-bs-toggle="modal" data-bs-target="#videoView">
+                        <img src="img/New/piscina5.jpg">
+                        <div class="videoIcon d-flex align-items-center justify-content-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="84" height="84" class="bi bi-play-circle" viewBox="0 0 16 16" id="play-circle"><path d="M8 15A7 7 0 118 1a7 7 0 010 14zm0 1A8 8 0 108 0a8 8 0 000 16z"></path><path d="M6.271 5.055a.5.5 0 01.52.038l3.5 2.5a.5.5 0 010 .814l-3.5 2.5A.5.5 0 016 10.5v-5a.5.5 0 01.271-.445z"></path></svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="element-item develop">
+                    <div class="card videoCard" data-file-image="videos/portao1.mp4" data-bs-toggle="modal" data-bs-target="#videoView">
+                        <img src="img/sapp/obra2.jpg">
+                        <div class="videoIcon d-flex align-items-center justify-content-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="84" height="84" class="bi bi-play-circle" viewBox="0 0 16 16" id="play-circle"><path d="M8 15A7 7 0 118 1a7 7 0 010 14zm0 1A8 8 0 108 0a8 8 0 000 16z"></path><path d="M6.271 5.055a.5.5 0 01.52.038l3.5 2.5a.5.5 0 010 .814l-3.5 2.5A.5.5 0 016 10.5v-5a.5.5 0 01.271-.445z"></path></svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="element-item develop">
+                    <div class="card videoCard" data-file-image="videos/piscina5.mp4" data-bs-toggle="modal" data-bs-target="#videoView">
+                        <img src="img/New/piscina2.jpg">
+                        
+                        <div class="videoIcon d-flex align-items-center justify-content-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="84" height="84" class="bi bi-play-circle" viewBox="0 0 16 16" id="play-circle"><path d="M8 15A7 7 0 118 1a7 7 0 010 14zm0 1A8 8 0 108 0a8 8 0 000 16z"></path><path d="M6.271 5.055a.5.5 0 01.52.038l3.5 2.5a.5.5 0 010 .814l-3.5 2.5A.5.5 0 016 10.5v-5a.5.5 0 01.271-.445z"></path></svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            `
+
+            var photos = `
+            <div class="photos photosD projects d-flex align-items-center justify-content-center">
+            <div class="photos_column">
+                <div class="element-item develop">
+                    <div class="card cardImage" data-file-image="img/sapp/completed1.jpg" data-bs-toggle="modal" data-bs-target="#imageView">
+                        <img src="img/sapp/completed1.jpg">
+                        <div class="overlay">
+                            <div class="title d-flex justify-content-between">
+                            <p>Casa 1º andar</p>
+                            <span class="hideMobile">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-geo-alt" width="16" height="16" viewBox="0 0 16 16" id="geo-alt">
+                                        <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 018 14.58a31.481 31.481 0 01-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0110 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 002 6c0 4.314 6 10 6 10z"></path>
+                                        <path d="M8 8a2 2 0 110-4 2 2 0 010 4zm0 1a3 3 0 100-6 3 3 0 000 6z"></path>
+                                    </svg>
+                                    Intaka / Maputo
+                            </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="element-item graph">
+                    <div class="card cardImage" data-file-image="img/sapp/obra2.jpg" data-bs-toggle="modal" data-bs-target="#imageView">
+                        <img src="img/sapp/obra2.jpg">
+                        <div class="overlay">
+                            <div class="title d-flex justify-content-between">
+                            <p>Casa2 1º andar</p>
+                            <span class="hideMobile">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-geo-alt" width="16" height="16" viewBox="0 0 16 16" id="geo-alt">
+                                        <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 018 14.58a31.481 31.481 0 01-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0110 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 002 6c0 4.314 6 10 6 10z"></path>
+                                        <path d="M8 8a2 2 0 110-4 2 2 0 010 4zm0 1a3 3 0 100-6 3 3 0 000 6z"></path>
+                                    </svg>
+                                    Intaka / Maputo
+                            </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="element-item design">
+                    <div class="card cardImage" data-file-image="img/New/quintal7.jpg" data-bs-toggle="modal" data-bs-target="#imageView">
+                        <img src="img/New/quintal7.jpg">
+                        <div class="overlay">
+                            <div class="title d-flex justify-content-between">
+                            <p>Casa3 1º andar</p>
+                            <span class="hideMobile">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-geo-alt" width="16" height="16" viewBox="0 0 16 16" id="geo-alt">
+                                        <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 018 14.58a31.481 31.481 0 01-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0110 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 002 6c0 4.314 6 10 6 10z"></path>
+                                        <path d="M8 8a2 2 0 110-4 2 2 0 010 4zm0 1a3 3 0 100-6 3 3 0 000 6z"></path>
+                                    </svg>
+                                    Liberdade / Matola
+                            </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="photos_column">
+                <div class="element-item develop">
+                    <div class="card cardImage" data-file-image="img/sapp/dest2.jpg" data-bs-toggle="modal" data-bs-target="#imageView">
+                        <img src="img/sapp/dest2.jpg">
+                        <div class="overlay">
+                            <div class="title d-flex justify-content-between">
+                            <p>Lorem ipsum dolor sit</p>
+                            <span class="hideMobile">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-geo-alt" width="16" height="16" viewBox="0 0 16 16" id="geo-alt">
+                                        <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 018 14.58a31.481 31.481 0 01-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0110 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 002 6c0 4.314 6 10 6 10z"></path>
+                                        <path d="M8 8a2 2 0 110-4 2 2 0 010 4zm0 1a3 3 0 100-6 3 3 0 000 6z"></path>
+                                    </svg>
+                                    Matola-Gare / Matola
+                            </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="element-item graph">
+                    <div class="card cardImage" data-file-image="img/sapp/obra1.jpg" data-bs-toggle="modal" data-bs-target="#imageView">
+                        <img src="img/sapp/obra1.jpg">
+                        <div class="overlay">
+                            <div class="title d-flex justify-content-between">
+                            <p>Lorem ipsum dolor sit</p>
+                            <span class="hideMobile">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-geo-alt" width="16" height="16" viewBox="0 0 16 16" id="geo-alt">
+                                        <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 018 14.58a31.481 31.481 0 01-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0110 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 002 6c0 4.314 6 10 6 10z"></path>
+                                        <path d="M8 8a2 2 0 110-4 2 2 0 010 4zm0 1a3 3 0 100-6 3 3 0 000 6z"></path>
+                                    </svg>
+                                    Matola / Matola
+                            </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="element-item design">
+                    <div class="card cardImage" data-file-image="img/New/dentro4.jpg" data-bs-toggle="modal" data-bs-target="#imageView">
+                        <img src="img/New/dentro4.jpg">
+                        <div class="overlay">
+                            <div class="title d-flex justify-content-between">
+                            <p>Lorem ipsum dolor sit</p>
+                            <span class="hideMobile">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-geo-alt" width="16" height="16" viewBox="0 0 16 16" id="geo-alt">
+                                        <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 018 14.58a31.481 31.481 0 01-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0110 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 002 6c0 4.314 6 10 6 10z"></path>
+                                        <path d="M8 8a2 2 0 110-4 2 2 0 010 4zm0 1a3 3 0 100-6 3 3 0 000 6z"></path>
+                                    </svg>
+                                    Matola / Matola
+                            </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="photos_column">
+                <div class="element-item develop" data-bs-toggle="modal" data-bs-target="#imageView">
+                    <div class="card cardImage" data-file-image="img/sapp/image1.jpg">
+                        <img src="img/sapp/image1.jpg">
+                        <div class="overlay">
+                            <div class="title d-flex justify-content-between">
+                            <p>Lorem ipsum dolor sit</p>
+                            <span class="hideMobile">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-geo-alt" width="16" height="16" viewBox="0 0 16 16" id="geo-alt">
+                                    <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 018 14.58a31.481 31.481 0 01-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0110 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 002 6c0 4.314 6 10 6 10z"></path>
+                                    <path d="M8 8a2 2 0 110-4 2 2 0 010 4zm0 1a3 3 0 100-6 3 3 0 000 6z"></path>
+                                </svg>
+                                Malhampsene / Matola
+                            </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="element-item graph" data-bs-toggle="modal" data-bs-target="#imageView">
+                    <div class="card cardImage" data-file-image="img/sapp/obra4.jpg">
+                        <img src="img/sapp/obra4.jpg">
+                        <div class="overlay">
+                            <div class="title d-flex justify-content-between">
+                            <p>Lorem ipsum dolor</p>
+                            <span class="hideMobile">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-geo-alt" width="16" height="16" viewBox="0 0 16 16" id="geo-alt">
+                                    <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 018 14.58a31.481 31.481 0 01-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0110 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 002 6c0 4.314 6 10 6 10z"></path>
+                                    <path d="M8 8a2 2 0 110-4 2 2 0 010 4zm0 1a3 3 0 100-6 3 3 0 000 6z"></path>
+                                </svg>
+                                Circular / Maputo
+                            </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="element-item graph" data-bs-toggle="modal" data-bs-target="#imageView">
+                    <div class="card cardImage" data-file-image="img/sapp/obra3.jpg">
+                        <img src="img/sapp/obra3.jpg">
+                        <div class="overlay">
+                            <div class="title d-flex justify-content-between">
+                            <p>Lorem ipsum dolor</p>
+                            <span class="hideMobile">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-geo-alt" width="16" height="16" viewBox="0 0 16 16" id="geo-alt">
+                                    <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 018 14.58a31.481 31.481 0 01-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0110 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 002 6c0 4.314 6 10 6 10z"></path>
+                                    <path d="M8 8a2 2 0 110-4 2 2 0 010 4zm0 1a3 3 0 100-6 3 3 0 000 6z"></path>
+                                </svg>
+                                Circular / Maputo
+                            </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            `
+
+            $(".cardImage").click(function(){
+                $("#imagePopUp").attr("src", $(this).attr("data-file-image"))
+            })
+
+            $(".videoCard").click(function(){
+                $(".videoSRC").html(`
+                    <video controls>
+                        <source id="" src="${$(this).attr("data-file-image")}">
+                    </video>
+                `)
+            })
+
+            $(window).scroll(function(){
+                console.log(window.innerHeight - $(window).scrollTop())
+            });
+
+            $(".hideVid").click(function(){
+                $(".videoSRC").empty()
+            })
+
+            $(".imageView").click(function(){
+                $(".videoSRC").empty()
+            })
+            
+            $(".photosBt").click(function(){
+                $(".catalogoActive").text("Fotos")
+                $(".photosD").remove();
+                $(".videosD").remove();
+                $(this).addClass("active")
+                $(".vieosBt").removeClass("active")
+                $(".catalogo").append(photos)
+                $(".cardImage").click(function(){
+                    $("#imagePopUp").attr("src", $(this).attr("data-file-image"))
+                })
+            })
+
+            $(".vieosBt").click(function(){
+                $(".catalogoActive").text("Videos")
+                $(".photosD").remove();
+                $(".videosD").remove();
+                $(this).addClass("active")
+                $(".photosBt").removeClass("active")
+                $(".catalogo").append(videos)
+
+                $(".hideVid").click(function(){
+                    $(".videoSRC").empty()
+                })
+
+                $(".videoCard").click(function(){
+                    $(".videoSRC").html(`
+                        <video controls>
+                            <source id="" src="${$(this).attr("data-file-image")}">
+                        </video>
+                    `)
+                })
+            })
+
+        });
+    </script>
+
+</body>
+</html>
